@@ -13,3 +13,4 @@ rmdir /tmp/my_first_directory - deltes entire directory in the tmp directory
 cd - - retuen userto previous working directory
 file <filename> - indicates what typeof file it is
 ln -s /bin/ls(target) __ls__(target name) - creates a symbolic link for desired target with desired target name in directory
+cp *.html /tmp - allows you to copy specifically html files into parent directory
