@@ -13,3 +13,6 @@ head <filename>
 displays the first 10 lines of a file
 
 adding number flags to head and tail with a pipeline allows for us to find achieved number within a file
+
+tail -1 iacta >> iacta
+allows user to appendge the last line of the iacta file into the iacta file without overwriting it
