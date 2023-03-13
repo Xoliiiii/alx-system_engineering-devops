@@ -16,3 +16,6 @@ adding number flags to head and tail with a pipeline allows for us to find achie
 
 tail -1 iacta >> iacta
 allows user to appendge the last line of the iacta file into the iacta file without overwriting it
+
+find . -type d | wc -l
+allows user to find directories and count how of them are there
