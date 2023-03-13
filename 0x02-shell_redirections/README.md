@@ -11,3 +11,5 @@ tail <filename>
 displays the last 10 lines of a file
 head <filename>
 displays the first 10 lines of a file
+
+adding number flags to head and tail with a pipeline allows for us to find achieved number within a file
