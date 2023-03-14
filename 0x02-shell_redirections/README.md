@@ -19,3 +19,6 @@ allows user to appendge the last line of the iacta file into the iacta file with
 
 find . -type d | wc -l
 allows user to find directories and count how of them are there
+
+ls -t | head
+lists the 10 newest files within the current directory
