@@ -24,3 +24,9 @@ printing local variable
 
 BEST="School"
 Creates a variable
+
+export BEST="School"
+Want to make local variable a global variable
+
+echo $((TRUEKNOWLEDGE+128))
+calculationg a sum
