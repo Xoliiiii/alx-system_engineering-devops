@@ -30,3 +30,8 @@ Want to make local variable a global variable
 
 echo $((TRUEKNOWLEDGE+128))
 calculationg a sum
+
+echo {a..z}{z..a} | tr '' '\n' | grep -v "oo"
+1. printing both combos of the alphabet
+2. translate blackspaces and inserting new lines for each blankspace
+3. excluding any variation of oo
