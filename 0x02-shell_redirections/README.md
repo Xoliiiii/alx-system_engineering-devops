@@ -37,3 +37,6 @@ displays the files wih the words root and then shows the next 3 lines of files
 
 grep -v(excluse a word flag) "bin" /etc/passwd
 excludes word within selected directory
+
+grep -i '^[a-z]' /etc/ssh/sshd_config
+Used to display line of the file starting with a letter inclusive of capital letters
