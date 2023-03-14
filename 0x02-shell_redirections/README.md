@@ -22,3 +22,9 @@ allows user to find directories and count how of them are there
 
 ls -t | head
 lists the 10 newest files within the current directory
+
+sort | uniq -u
+prints words that have only appeard once 
+
+grep root /etc/passwd
+search for any file assosciated with the word root and print it as output 
