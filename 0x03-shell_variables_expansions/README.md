@@ -21,3 +21,6 @@ printing global variable
 
 set
 printing local variable
+
+BEST="School"
+Creates a variable
