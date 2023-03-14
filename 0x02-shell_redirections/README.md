@@ -40,3 +40,9 @@ excludes word within selected directory
 
 grep -i '^[a-z]' /etc/ssh/sshd_config
 Used to display line of the file starting with a letter inclusive of capital letters
+
+tr 'a' 'z' | tr 'c' 'e'
+replacing certain letters within a string 
+
+tr -d(deletes characters in set1 according to set2) "Cc"
+deletes Cc when it is inputed
