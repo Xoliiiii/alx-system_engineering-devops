@@ -28,3 +28,6 @@ prints words that have only appeard once
 
 grep root /etc/passwd
 search for any file assosciated with the word root and print it as output 
+
+grep bin /etc/passwd | wc -l
+counts thenumber of times the word bin has been displayed within /etc/passwd
