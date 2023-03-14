@@ -10,3 +10,8 @@ prints a string that greets a user
 
 PATH=$PATH:/action
 adding a pathname to an existing path
+
+echo $PATH | tr ':' 'n' | wc -l
+1. We needed to print directory files for $PATH
+2. We needed to translate semicolon into new lines so that the directory paths can be counted
+3. USe the wc -l to count the output of previous command
