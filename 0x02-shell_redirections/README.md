@@ -34,3 +34,6 @@ counts thenumber of times the word bin has been displayed within /etc/passwd
 
 grep root /etc/passwd | head -4 /etc/passwd
 displays the files wih the words root and then shows the next 3 lines of files
+
+grep -v(excluse a word flag) "bin" /etc/passwd
+excludes word within selected directory
